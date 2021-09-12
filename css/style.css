@@ -1,3 +1,8 @@
+*{
+	list-style-type: none;
+	text-decoration: none;
+}
+
 #nav-bar {
 	position: fixed;
 	top: 0;
@@ -9,3 +14,12 @@
 		background-color: #eee;
 	}
 }
+#nav-bar ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#nav-bar ul li {
+	margin-right: 0.4rem;
+}
+
